@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Poem generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>Poem Generator</h1>
       </header>
       <main>
-        <form class="form">
+        <form class="form" id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter topic for poem"
@@ -22,16 +23,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem-placeholder">
-          <br />
-          it was when i stopped searching for home within others and lifted the
-          <br />
-          foundations of home within myself i found there were no roots more
-          <br />
-          intimate than those between a mind and body that have decided to be
-          <br />
-          whole
-        </div>
+        <div class="poem-placeholder" id="poem"></div>
       </main>
       <footer>
         This project was coded by
