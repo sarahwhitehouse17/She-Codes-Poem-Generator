@@ -13,6 +13,7 @@ header {
   line-height: 1.5;
   font-weight: 800;
   text-align: center;
+  color: #e6a4b4;
 }
 
 .form-container {
@@ -23,20 +24,20 @@ header {
 }
 
 .form-input {
-  width: 80%;
+  width: 70%;
   padding: 15px;
   border-radius: 30px;
-  border-color: #e7eaf6;
   color: black;
 }
 
 .submit-button {
-  width: 70px;
+  width: 100px;
   padding: 15px;
   border-radius: 20px;
   margin: auto;
+  margin-left: 10px;
   border: none;
-  background-color: #a2a8d3;
+  background-color: #e6a4b4;
   color: white;
 }
 
@@ -50,13 +51,17 @@ header {
   }
 }
 
+a {
+  color: #e6a4b4;
+}
+
 .poem {
   padding: 20px;
   line-height: 1.7;
   background-color: white;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-left: 7px solid #a2a8d3;
+  border-left: 7px solid #e6a4b4;
   font-family: inherit;
   display: flex;
 }
@@ -76,5 +81,5 @@ footer {
 }
 
 .poem strong {
-  color: #a2a8d3;
+  color: #e6a4b4;
 }
