@@ -14,18 +14,23 @@
         <h1>Poem Generator</h1>
       </header>
       <main>
-        <form class="form" id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter topic for poem"
-            required
-            autofocus
-            class="form-input"
-            id="user-input-for-poem"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem-placeholder" id="poem"></div>
+        <div class="form-container">
+          <form class="form" id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter topic for poem"
+              required
+              autofocus
+              class="form-input"
+              id="user-input-for-poem"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">
+            <small>i.e - flowers, stars, meadows</small>
+          </div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This project was coded by

@@ -15,10 +15,11 @@ header {
   text-align: center;
 }
 
-.form {
+.form-container {
   background-color: white;
   padding: 20px;
   border-radius: 50px;
+  margin-bottom: 20px;
 }
 
 .form-input {
@@ -39,7 +40,17 @@ header {
   color: white;
 }
 
-.poem-placeholder {
+.generating {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  100% {
+    opacity: 0;
+  }
+}
+
+.poem {
   padding: 20px;
   line-height: 1.7;
   background-color: white;
@@ -47,6 +58,16 @@ header {
   margin-bottom: 20px;
   border-left: 7px solid #a2a8d3;
   font-family: inherit;
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.hint {
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.5;
 }
 
 footer {
